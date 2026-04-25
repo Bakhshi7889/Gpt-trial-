@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMW M4 Competition — Scroll Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="webgl-canvas" aria-hidden="true"></canvas>
+
+    <header class="hud">
+      <div class="logo">BMW M4 Competition</div>
+      <div class="hint">Scroll to drive the story</div>
+    </header>
+
+    <main>
+      <section class="panel hero" data-step="0">
+        <video
+          class="bg-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          src="https://cdn.coverr.co/videos/coverr-driving-fast-on-a-highway-1579/1080p.mp4"
+        ></video>
+        <div class="overlay"></div>
+        <div class="content">
+          <p class="eyebrow">High Performance Coupe</p>
+          <h1>BMW M4 Competition</h1>
+          <p>
+            A cinematic, scroll-synced showcase: speed, stance, carbon details, and a bold coupe
+            silhouette rendered in 3D.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel" data-step="1">
+        <video
+          class="bg-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          src="https://cdn.coverr.co/videos/coverr-driving-through-a-city-at-night-1583/1080p.mp4"
+        ></video>
+        <div class="overlay"></div>
+        <div class="content">
+          <p class="eyebrow">Engineered Presence</p>
+          <h2>510 PS twin-turbo attitude</h2>
+          <p>
+            As you scroll, the 3D car rotates, lights up, and shifts camera framing—like directing
+            your own launch reel.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel" data-step="2">
+        <video
+          class="bg-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          src="https://cdn.coverr.co/videos/coverr-black-sports-car-on-a-road-5706/1080p.mp4"
+        ></video>
+        <div class="overlay"></div>
+        <div class="content">
+          <p class="eyebrow">M Precision</p>
+          <h2>Rear profile, wide track, pure drama</h2>
+          <p>
+            The scene responds to your scroll with synchronized camera distance, body tilt, wheel
+            glow, and atmospheric lighting.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel end" data-step="3">
+        <div class="overlay solid"></div>
+        <div class="content">
+          <p class="eyebrow">Build your moment</p>
+          <h2>M4 Competition</h2>
+          <p>
+            Crafted as an interactive showcase template. Replace media, tune colors, and ship your
+            own premium motion site.
+          </p>
+          <a class="cta" href="#" aria-label="Configure BMW M4 Competition">Configure Experience</a>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
